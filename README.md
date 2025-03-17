@@ -72,7 +72,7 @@ A complete decentralized application for minting NFTs with metadata. This projec
    # Deploy the contract to the local network
    npx hardhat run scripts/deploy.ts --network localhost
    ```
-7. Solidity documentation available at [here](https://github.com/your-username/nft-minting-app/blob/main/docs/SimpleNFT.md)
+7. Solidity documentation available at [here](https://github.com/duync2006/Simple-Minting-Dapp/blob/main/smartcontract/docs/SimpleNFT.md)
 
 ### Database Setup
 
@@ -152,6 +152,6 @@ Note: You can not change CONTRACT_ADDRESS if firstly deploy contract in hardhat 
 
 ## Documentation
 
-- [Solidity Documentation](https://github.com/your-username/nft-minting-app/blob/main/docs/SimpleNFT.md)
+- [Solidity Documentation](https://github.com/duync2006/Simple-Minting-Dapp/blob/main/smartcontract/docs/SimpleNFT.md)
 - [API Documentation](http://localhost:5000/api/docs)
 
