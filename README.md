@@ -150,3 +150,8 @@ Note: You can not change CONTRACT_ADDRESS if firstly deploy contract in hardhat 
 - Rate limiting is implemented on the backend
 - The frontend validates user input before submission
 
+## Documentation
+
+- [Solidity Documentation](https://github.com/your-username/nft-minting-app/blob/main/docs/SimpleNFT.md)
+- [API Documentation](http://localhost:5000/api/docs)
+
