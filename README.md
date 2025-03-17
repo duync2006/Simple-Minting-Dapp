@@ -6,7 +6,7 @@ A complete decentralized application for minting NFTs with metadata. This projec
 
 - `contracts/`: Solidity smart contracts
 - `scripts/`: Deployment scripts
-- `test/`: Smart contract tests
+- `database/`: Database setup
 - `backend/`: Metadata and minting status service
 - `frontend/`: Next.js frontend application
 
@@ -28,13 +28,12 @@ A complete decentralized application for minting NFTs with metadata. This projec
   - NFT minting form
   - NFT gallery
   - Minting status display
+  - Transaction history/ Transaction Details
 
 ## Setup Instructions
-
 ### Prerequisites
-
 - Node.js (v18+)
-- npm or yarn
+- npm
 - Hardhat
 - MetaMask or another Ethereum wallet
 
