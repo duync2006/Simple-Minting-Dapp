@@ -28,7 +28,7 @@ export default function MintForm({
 }: MintFormProps) {
   const [previewUrl, setPreviewUrl] = useState<string>('');
   const [imageFile, setImageFile] = useState<File | null>(null);
-  
+
   const { register, handleSubmit, formState: { errors }, reset } = useForm<FormData>({
     defaultValues: {
       name: '',
@@ -81,10 +81,11 @@ export default function MintForm({
   };
 
   // Calculate remaining mints
-  const remainingMints = maxMintsPerAddress && userMintCount 
-    ? bigintToNumber(maxMintsPerAddress - userMintCount)
+  const remainingMints = maxMintsPerAddress 
+    ? bigintToNumber(maxMintsPerAddress - (userMintCount || BigInt(0)))
     : null;
-
+  console.log("userMintCount", userMintCount);
+  console.log("maxMintsPerAddress", maxMintsPerAddress);
   return (
     <div className="max-w-3xl mx-auto">
       {isConnected ? (
